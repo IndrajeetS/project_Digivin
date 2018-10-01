@@ -128,7 +128,7 @@ body {
     box-sizing: border-box;
     text-align: center; 
     background: transparent;
-    background-color: #fff;
+    background-color: #f5f7fa;
     font-family: 'Roboto Slab', serif;    
 }
 
@@ -172,6 +172,7 @@ body {
 
 #navBar ul.nav.navbar-nav li a:hover {
     background: none !important;
+    cursor: pointer;
 }
 
 .nav>li>a:active {
@@ -896,3 +897,6 @@ a:hover {
     color: #fe4458 !important;
     text-decoration: none;
 }
+
+/* style testimonial carousel -----------------------------------------
+------------------------------------------ */
