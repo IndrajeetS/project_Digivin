@@ -1,5 +1,5 @@
 <div id="our-location" class="container col-md-9">
-    <div>
+    <div class="where-are-we">
         <h1 class="default animated fadeInDown one"><span>Where Are We</span></h1>
         <div class="focus animated fadeInDown two"></div>
             <div class="animated fadeInUp three where-are-we-list short-container col-md-12 clearfix">
