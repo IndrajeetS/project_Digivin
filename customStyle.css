@@ -128,8 +128,12 @@ body {
     box-sizing: border-box;
     text-align: center; 
     background: transparent;
-    background-color: #f5f7fa;
+    /* background-color: #f5f7fa; */
     font-family: 'Roboto Slab', serif;    
+}
+
+a {
+    cursor: pointer;
 }
 
 
@@ -172,7 +176,6 @@ body {
 
 #navBar ul.nav.navbar-nav li a:hover {
     background: none !important;
-    cursor: pointer;
 }
 
 .nav>li>a:active {
@@ -270,7 +273,7 @@ h1.default span {
     position: relative;
     z-index: 5;
 }
-/* 
+
 .fadeInDown .one {
     -webkit-animation-delay: 1.2s;
     -moz-animation-delay: 1.2s;
@@ -292,17 +295,72 @@ h1.default span {
 }
 
 .fadeInDown .two {
-    -webkit-animation-delay: 2.5s;
-    -moz-animation-delay: 2.5s;
-    -o-animation-delay: 2.5s;
-    -ms-transition-delay: 2.5s;
-    animation-delay: 2.5s;
-} */
+    -webkit-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+    -o-animation-delay: 1.5s;
+    -ms-transition-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+
+@keyframes fadeInDown {
+
+0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0,-100%,0);
+    -ms-transform: translate3d(0,-100%,0);
+    transform: translate3d(0,-100%,0);
+}
+
+100% {
+    opacity: 1;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+}
+
+}
+
+@keyframes fadeInUp {
+
+0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0,100%,0);
+    -ms-transform: translate3d(0,100%,0);
+    transform: translate3d(0,100%,0);
+}
+  
+100% {
+    opacity: 1;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+}
+
+}
+
+@keyframes fadeInUp {
+
+0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0,100%,0);
+    -ms-transform: translate3d(0,100%,0);
+    transform: translate3d(0,100%,0);
+}
+  
+100% {
+    opacity: 1;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+}
+
+    
+}
 
 /* style for content --------------------------------------------------
 --------------------------------------------------------*/
 
-/* .fadeInUp.three {
+.fadeInUp.three {
     -webkit-animation-delay: 3.5s;
     -moz-animation-delay: 3.5s;
     -o-animation-delay: 3.5s;
@@ -313,7 +371,7 @@ h1.default span {
 .fadeInUp {
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-} */
+}
 
 .short-container {
     color: #757584;
@@ -444,7 +502,7 @@ p {
 }
 
 /* style for footer --------------
-------------------------------------------*/
+------------------------------------------------------- */
 
 #footer {
     background-color: #1a1a1a;
@@ -603,6 +661,7 @@ div.wpcf7 .screen-reader-response {
 #get-in-touch form {
     margin: 0 auto;
     text-align: left;
+    margin-bottom: 10px;
 }
 
 span.wpcf7-form-control-wrap {
@@ -652,32 +711,6 @@ span.wpcf7-form-control-wrap {
     border: 1px solid #878796;
 }
 
-/* span.form-code {
-    display: inline-block;
-    float: left;
-    width: 15%;
-    padding-right: 5px;
-} */
-
-/* span.form-number {
-    display: inline-block;
-    width: 85%;
-} */
-
-/* #get-in-touch textarea {
-    min-height: 347px!important;
-}
-
-#get-in-touch textarea {
-    width: 100%;
-    border: 1px solid #878796;
-    border-radius: 4px;
-    padding: 5px 20px;
-    color: #858594;
-    font-size: 14px;
-    resize: none;
-    font-family: 'Roboto Slab', serif;
-} */
 
 /* style for button */
 
@@ -700,9 +733,7 @@ span.wpcf7-form-control-wrap {
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
-    /* position: relative; */
-    /* float: right; */
-    margin-left: 165px;
+    /* margin-left: 29%; */
 }
 
 .btn {
@@ -754,8 +785,8 @@ div.wpcf7 .ajax-loader {
 }
 
 .details {
-    margin-left: 80px;
-    margin-bottom: 80px;
+    width: 40%;
+    margin-left: 10%;
 }
 
 .details_head {
@@ -768,9 +799,8 @@ div.wpcf7 .ajax-loader {
 }
 
 .details_para {
-    /* line-height: 1px; */
     padding: 5px;
-    margin-left: 40px;
+    margin-bottom: 10px;
 }
 
 

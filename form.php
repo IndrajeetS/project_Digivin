@@ -24,7 +24,7 @@
 
                     <div class="form-wrap-get col-md-12">
 
-                        <div class="form-wrap-get col-md-6">
+                        <div class="form-wrap-get col-md-4">
 
                             <div class="form-group">
                                 <span class="wpcf7-form-control-wrap your-name">
@@ -64,9 +64,9 @@
                             
                         </div>
 
-                        <div class="form-wrap-get col-md-6">
+                        <div class="form-wrap-get col-md-8 left-side">
 
-                            <div class="details">
+                            <div class="col-md-4 details">
 
                                 <h2 class="details_head">Northern branch</h2>
                                 <p class="details_para">
@@ -79,8 +79,10 @@
                                     <i class="fa fa-whatsapp"></i> +91 985-8578-568 <br>
                                     <i class="fa fa-at"></i> <a href="mailto:svgroups@gmail.com" target="_blank">svgroups@gmail.com</a>
                                 </p>
+
+                            </div>
                                 
-                                <br><br>
+                            <div class="col-md-4 details">
 
                                 <h2 class="details_head">Southern branch</h2>
                                 <p class="details_para">
@@ -92,8 +94,8 @@
                                     <label>Indrajeet :</label> <br>
                                     <i class="fa fa-whatsapp"></i> +91 985-8578-568 <br>
                                     <i class="fa fa-at"></i> <a href="mailto:svgroups@gmail.com" target="_blank">svgroups@gmail.com</a>
-                                </p>
-                                
+                                </p>                                
+
                             </div>
 
                         </div>
