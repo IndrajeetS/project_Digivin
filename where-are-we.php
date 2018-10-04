@@ -4,7 +4,7 @@
         <div class="focus animated fadeInDown two"></div>
             <div class="animated fadeInUp three where-are-we-list short-container col-md-12 clearfix">
 
-                <div class="col-md-2 where-are-we-item">
+                <div class="col-md-3 where-are-we-item">
                 <h5>Bengaluru</h5>
 
                     <p>
@@ -18,7 +18,7 @@
 
                 </div> 
                 
-                <div class="col-md-2 where-are-we-item">
+                <div class="col-md-3 where-are-we-item">
                 <h5>Gurugram</h5>
 
                     <p>
@@ -32,7 +32,7 @@
 
                 </div> 
 
-                <div class="col-md-2 where-are-we-item">
+                <div class="col-md-3 where-are-we-item">
                 <h5>Jind</h5>
 
                     <p>
@@ -46,7 +46,7 @@
 
                 </div> 
 
-                <div class="col-md-2 where-are-we-item">
+                <div class="col-md-3 where-are-we-item">
                 <h5>Rohtak</h5>
 
                     <p>
